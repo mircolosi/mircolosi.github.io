@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mirco Colosi</title>
-    <link>https://mircolosi.gitlab.io/pubblications/</link>
+    <link>https://mircolosi.github.io/pubblications/</link>
     <description>Recent content on Mirco Colosi</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>colosi@diag.uniroma1.it (Mirco Colosi)</managingEditor>
     <webMaster>colosi@diag.uniroma1.it (Mirco Colosi)</webMaster>
     <lastBuildDate>Wed, 13 Sep 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://mircolosi.gitlab.io/pubblications/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mircolosi.github.io/pubblications/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bridging between Computer and Robot Vision through Data Augmentation: a Case Study on Object Recognition</title>
-      <link>https://mircolosi.gitlab.io/pubblications/2017-05-05-object-recognition/</link>
+      <link>https://mircolosi.github.io/pubblications/2017-05-05-object-recognition/</link>
       <pubDate>Wed, 13 Sep 2017 00:00:00 +0000</pubDate>
       <author>colosi@diag.uniroma1.it (Mirco Colosi)</author>
-      <guid>https://mircolosi.gitlab.io/pubblications/2017-05-05-object-recognition/</guid>
+      <guid>https://mircolosi.github.io/pubblications/2017-05-05-object-recognition/</guid>
       <description>Despite the impressive progress brought by deep network in visual object recognition, robot vision is still far from being a solved problem. The most successful convolutional architectures are developed starting from ImageNet, a large-scale collection of images of object categories downloaded from the Web. This kind of images is very different from the situated and embodied visual experience of robots deployed in unconstrained settings. To reduce the gap between these two visual experiences, this paper proposes a simple yet effective data augmentation layer that zooms on the object of interest and simulates the object detection outcome of a robot vision system.</description>
     </item>
     
     <item>
       <title>ProSLAM: Graph SLAM from a Programmer’s Perspective</title>
-      <link>https://mircolosi.gitlab.io/pubblications/2017-09-13-proslam/</link>
+      <link>https://mircolosi.github.io/pubblications/2017-09-13-proslam/</link>
       <pubDate>Wed, 13 Sep 2017 00:00:00 +0000</pubDate>
       <author>colosi@diag.uniroma1.it (Mirco Colosi)</author>
-      <guid>https://mircolosi.gitlab.io/pubblications/2017-09-13-proslam/</guid>
+      <guid>https://mircolosi.github.io/pubblications/2017-09-13-proslam/</guid>
       <description>In this paper, we present ProSLAM, a lightweight stereo visual SLAM system designed with simplicity in mind. Our work stems from the experience gathered by the authors while teaching SLAM to students and aims at providing a highly modular system that can be easily implemented and understood. Rather than focusing on the well known mathematical aspects of Stereo Visual SLAM, in this work we highlight the data structures and the algorithmic aspects that one needs to tackle during the design of such a system.</description>
     </item>
     
