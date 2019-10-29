@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mirco Colosi</title>
@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>colosi@diag.uniroma1.it (Mirco Colosi)</managingEditor>
     <webMaster>colosi@diag.uniroma1.it (Mirco Colosi)</webMaster>
-    <lastBuildDate>Wed, 13 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mircolosi.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Better Lost in Transition Than Lost in Space: SLAM State Machine</title>
+      <link>https://mircolosi.github.io/publications/2019-11-04-slam-state-machine/</link>
+      <pubDate>Fri, 04 Jan 2019 00:00:00 +0000</pubDate>
+      <author>colosi@diag.uniroma1.it (Mirco Colosi)</author>
+      <guid>https://mircolosi.github.io/publications/2019-11-04-slam-state-machine/</guid>
+      <description>A Simultaneous Localization and Mapping (SLAM) system is a complex program consisting of several interconnected components with different functionalities such as optimization, tracking or loop detection. Whereas the literature addresses in detail how enhancing the algorithmic aspects of the individual components improves SLAM performance, the modal aspects, such as when to localize, relocalize or close a loop, are usually left aside. In this paper, we address the modal aspects of a SLAM system and show that the design of the modal controller has a strong impact on SLAM performance in particular in terms of robustness against unforeseen events such as sensor failures, perceptual aliasing or kidnapping.</description>
+    </item>
     
     <item>
       <title>Bridging between Computer and Robot Vision through Data Augmentation: a Case Study on Object Recognition</title>
@@ -37,10 +46,9 @@
       <author>colosi@diag.uniroma1.it (Mirco Colosi)</author>
       <guid>https://mircolosi.github.io/about/</guid>
       <description>Ph.D. Ph.D. Student in Engineering in Computer Science.
-During my Ph.D. I am working both at &amp;ldquo;Sapienza” University of Rome and at Robert Bosch Campus, Renningen, B-W, Germany. The main topic of my research is Life-Long SLAM.
+During my Ph.D. I am working both at Sapienza University of Rome and at Robert Bosch Campus, Renningen, Germany. The main topic of my research is life-long SLAM focusing on resource awareness.
 My advisor is Prof. Giorgio Grisetti.
-June 2018 – December 2018 I moved to Germany and I am working mainly on RGB-D SLAM and Multi-Sensor Calibration
-November 2017 – May 2018 I worked on Calibration and 2D SLAM at &amp;ldquo;Sapienza&amp;rdquo; University of Rome.</description>
+June 2018 – NOW I am doing a long term abroad period in Germany and my focus is the SLAM State Machine. Other research topics have been RGB-D SLAM and Multi-Sensor Calibration.</description>
     </item>
     
     <item>
@@ -51,6 +59,9 @@ November 2017 – May 2018 I worked on Calibration and 2D SLAM at &amp;ldquo;Sap
       <guid>https://mircolosi.github.io/contacts/</guid>
       <description>Lab. Ro.Co.Co., Department of Computer, Control, and Management Engineering (DIAG) “Antonio Ruberti” at Sapienza University of Rome. Via Ariosto, 25. 00185 Rome, Italy.
 Contact me at: colosi [at] diag [dot] uniroma1 [dot] it
+ 
+Robert Bosch Campus, Department of Robot Navigation and Perception (CR/AER1), Robert-Bosch-Campus, 71272, Renningen, Germany.
+Contact me at: mirco [dot] colosi [at] de [dot] bosch [dot] com
  </description>
     </item>
     
