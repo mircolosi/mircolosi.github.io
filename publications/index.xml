@@ -5,8 +5,8 @@
     <link>https://mircolosi.github.io/publications/</link>
     <description>Recent content on Mirco Colosi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>colosi@diag.uniroma1.it (Mirco Colosi)</managingEditor>
-    <webMaster>colosi@diag.uniroma1.it (Mirco Colosi)</webMaster>
+    <managingEditor>colosi@diag.uniroma1.it,mirco.colosi@de.bosch.com (Mirco Colosi)</managingEditor>
+    <webMaster>colosi@diag.uniroma1.it,mirco.colosi@de.bosch.com (Mirco Colosi)</webMaster>
     <lastBuildDate>Fri, 04 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mircolosi.github.io/publications/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Better Lost in Transition Than Lost in Space: SLAM State Machine</title>
       <link>https://mircolosi.github.io/publications/2019-11-04-slam-state-machine/</link>
       <pubDate>Fri, 04 Jan 2019 00:00:00 +0000</pubDate>
-      <author>colosi@diag.uniroma1.it (Mirco Colosi)</author>
+      <author>colosi@diag.uniroma1.it,mirco.colosi@de.bosch.com (Mirco Colosi)</author>
       <guid>https://mircolosi.github.io/publications/2019-11-04-slam-state-machine/</guid>
       <description>A Simultaneous Localization and Mapping (SLAM) system is a complex program consisting of several interconnected components with different functionalities such as optimization, tracking or loop detection. Whereas the literature addresses in detail how enhancing the algorithmic aspects of the individual components improves SLAM performance, the modal aspects, such as when to localize, relocalize or close a loop, are usually left aside. In this paper, we address the modal aspects of a SLAM system and show that the design of the modal controller has a strong impact on SLAM performance in particular in terms of robustness against unforeseen events such as sensor failures, perceptual aliasing or kidnapping.</description>
     </item>
@@ -25,7 +25,7 @@
       <title>Bridging between Computer and Robot Vision through Data Augmentation: a Case Study on Object Recognition</title>
       <link>https://mircolosi.github.io/publications/2017-05-05-object-recognition/</link>
       <pubDate>Wed, 13 Sep 2017 00:00:00 +0000</pubDate>
-      <author>colosi@diag.uniroma1.it (Mirco Colosi)</author>
+      <author>colosi@diag.uniroma1.it,mirco.colosi@de.bosch.com (Mirco Colosi)</author>
       <guid>https://mircolosi.github.io/publications/2017-05-05-object-recognition/</guid>
       <description>Despite the impressive progress brought by deep network in visual object recognition, robot vision is still far from being a solved problem. The most successful convolutional architectures are developed starting from ImageNet, a large-scale collection of images of object categories downloaded from the Web. This kind of images is very different from the situated and embodied visual experience of robots deployed in unconstrained settings. To reduce the gap between these two visual experiences, this paper proposes a simple yet effective data augmentation layer that zooms on the object of interest and simulates the object detection outcome of a robot vision system.</description>
     </item>
@@ -34,7 +34,7 @@
       <title>ProSLAM: Graph SLAM from a Programmer’s Perspective</title>
       <link>https://mircolosi.github.io/publications/2017-09-13-proslam/</link>
       <pubDate>Wed, 13 Sep 2017 00:00:00 +0000</pubDate>
-      <author>colosi@diag.uniroma1.it (Mirco Colosi)</author>
+      <author>colosi@diag.uniroma1.it,mirco.colosi@de.bosch.com (Mirco Colosi)</author>
       <guid>https://mircolosi.github.io/publications/2017-09-13-proslam/</guid>
       <description>In this paper, we present ProSLAM, a lightweight stereo visual SLAM system designed with simplicity in mind. Our work stems from the experience gathered by the authors while teaching SLAM to students and aims at providing a highly modular system that can be easily implemented and understood. Rather than focusing on the well known mathematical aspects of Stereo Visual SLAM, in this work we highlight the data structures and the algorithmic aspects that one needs to tackle during the design of such a system.</description>
     </item>
