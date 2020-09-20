@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mirco Colosi</title>
@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>colosi@diag.uniroma1.it,mirco.colosi@de.bosch.com (Mirco Colosi)</managingEditor>
     <webMaster>colosi@diag.uniroma1.it,mirco.colosi@de.bosch.com (Mirco Colosi)</webMaster>
-    <lastBuildDate>Fri, 04 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mircolosi.github.io/publications/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Plug-and-Play SLAM: A Unified SLAM Architecture for Modularity and Ease of Use</title>
+      <link>https://mircolosi.github.io/publications/2020-04-14-plug-n-play-slam/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      <author>colosi@diag.uniroma1.it,mirco.colosi@de.bosch.com (Mirco Colosi)</author>
+      <guid>https://mircolosi.github.io/publications/2020-04-14-plug-n-play-slam/</guid>
+      <description>Nowadays, SLAM (Simultaneous Localization and Mapping) is considered by the Robotics community to be a mature field. Currently, there are many open-source systems that are able to deliver fast and accurate estimation in typical real-world scenarios. Still, all these systems often provide an ad-hoc implementation that entailed to predefined sensor configurations. In this work, we tackle this issue, proposing a novel SLAM architecture specifically designed to address heterogeneous sensors&#39; configuration and to standardize SLAM solutions.</description>
+    </item>
     
     <item>
       <title>Better Lost in Transition Than Lost in Space: SLAM State Machine</title>

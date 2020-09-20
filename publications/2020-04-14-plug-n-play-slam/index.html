@@ -5,26 +5,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>Mirco Colosi</title>
-  <meta property="og:title" content="Mirco Colosi" />
-  <meta name="twitter:title" content="Mirco Colosi" />
-  <meta name="description" content="Home  
- I am a Ph.D. student (2017-now) at the Department of Computer, Control and Management Engineering Antonio Ruberti at Sapienza University of Rome.  My Ph.D. is sponsored by Robert Bosch GmbH and I am working at Robert Bosch Campus, Renningen, Germany, in the department of Mapping, Localization and Navigation (CR/AAS3) held by Dr. Alexander Kleiner and in collaboration with Dr. Kai Oliver Arras.  I am a member of the Lab Ro.">
-  <meta property="og:description" content="Home  
- I am a Ph.D. student (2017-now) at the Department of Computer, Control and Management Engineering Antonio Ruberti at Sapienza University of Rome.  My Ph.D. is sponsored by Robert Bosch GmbH and I am working at Robert Bosch Campus, Renningen, Germany, in the department of Mapping, Localization and Navigation (CR/AAS3) held by Dr. Alexander Kleiner and in collaboration with Dr. Kai Oliver Arras.  I am a member of the Lab Ro.">
-  <meta name="twitter:description" content="Home  
- I am a Ph.D. student (2017-now) at the Department of Computer, Control and Management Engineering Antonio Ruberti at Sapienza University of Rome.  My Ph.D. is sponsored by Robert Bosch GmbH …">
+  <title>Plug-and-Play SLAM: A Unified SLAM Architecture for Modularity and Ease of Use</title>
+  <meta property="og:title" content="Plug-and-Play SLAM: A Unified SLAM Architecture for Modularity and Ease of Use" />
+  <meta name="twitter:title" content="Plug-and-Play SLAM: A Unified SLAM Architecture for Modularity and …" />
+  <meta name="description" content="Nowadays, SLAM (Simultaneous Localization and Mapping) is considered by the Robotics community to be a mature field. Currently, there are many open-source systems that are able to deliver fast and accurate estimation in typical real-world scenarios. Still, all these systems often provide an ad-hoc implementation that entailed to predefined sensor configurations. In this work, we tackle this issue, proposing a novel SLAM architecture specifically designed to address heterogeneous sensors&#39; configuration and to standardize SLAM solutions.">
+  <meta property="og:description" content="Nowadays, SLAM (Simultaneous Localization and Mapping) is considered by the Robotics community to be a mature field. Currently, there are many open-source systems that are able to deliver fast and accurate estimation in typical real-world scenarios. Still, all these systems often provide an ad-hoc implementation that entailed to predefined sensor configurations. In this work, we tackle this issue, proposing a novel SLAM architecture specifically designed to address heterogeneous sensors&#39; configuration and to standardize SLAM solutions.">
+  <meta name="twitter:description" content="Nowadays, SLAM (Simultaneous Localization and Mapping) is considered by the Robotics community to be a mature field. Currently, there are many open-source systems that are able to deliver fast and …">
   <meta name="author" content="Mirco Colosi"/>
   <link href='https://mircolosi.github.io/resources/tri.png' rel='icon' type='image/x-icon'/>
   <meta property="og:image" content="https://mircolosi.github.io/img/avatar-home.png" />
   <meta name="twitter:image" content="https://mircolosi.github.io/img/avatar-home.png" />
   <meta name="twitter:card" content="summary" />
-  <meta property="og:url" content="https://mircolosi.github.io/" />
+  <meta property="og:url" content="https://mircolosi.github.io/publications/2020-04-14-plug-n-play-slam/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Mirco Colosi" />
 
   <meta name="generator" content="Hugo 0.40.1" />
-  <link rel="canonical" href="https://mircolosi.github.io/" />
+  <link rel="canonical" href="https://mircolosi.github.io/publications/2020-04-14-plug-n-play-slam/" />
   <link rel="alternate" href="https://mircolosi.github.io/index.xml" type="application/rss+xml" title="Mirco Colosi">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -171,13 +168,8 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="page-heading">
-              <h1>Mirco Colosi</h1>
-                
-                  
-                    <hr class="small">
-                    <span class="page-subheading">Ph.D. Student</span>
-                  
+            <div class="publications-heading">
+              <h1>Plug-and-Play SLAM: A Unified SLAM Architecture for Modularity and Ease of Use</h1>
                 
                 
             </div>
@@ -189,47 +181,49 @@
 
 
     
-  <div role="main" class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        
-          <div class="well">
-            
+<div class="container" role="main">
 
-<h2 id="home">Home</h2>
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>Nowadays, SLAM (Simultaneous Localization and Mapping) is considered by the Robotics community to be a mature field. Currently, there are many open-source systems that are able to deliver fast and accurate estimation in typical real-world scenarios. Still, all these systems often provide an ad-hoc implementation that entailed to predefined sensor configurations. In this work, we tackle this issue, proposing a novel SLAM architecture specifically designed to address heterogeneous sensors' configuration and to standardize SLAM solutions. Thanks to its modularity and to specific design patterns, the presented architecture is easy to extend, enhancing code reuse and efficiency. Finally, adopting our solution, we conducted comparative experiments for a variety of sensor configurations, showing competitive results that confirm state-of-the-art performance.</p>
 
-<p><head>
-  <meta name="keywords" content="SLAM, visual SLAM, calibration, life-long SLAM, long term SLAM, resource-aware SLAM, SLAM State Machine">
-  <meta name="author" content="Mirco Colosi">
-</head></p>
+<!--__DOI__: [10.1109/IROS40897.2019.8968182](https://doi.org/10.1109/IROS40897.2019.8968182)  -->
 
-<div>
-  <p style="text-align:left;">
-    <img src="img/mirco.jpg" style="float:right; margin-top: 0.75em; margin-left: 1.5em; margin-right: 0px; padding: 5px; border: 1px solid #ddd" />
-    I am a Ph.D. student (2017-now) at the Department of Computer, Control and Management Engineering <i>Antonio Ruberti</i> at <i>Sapienza</i> University of Rome.
-    <br/>
-    My Ph.D. is sponsored by Robert Bosch GmbH and I am working at Robert Bosch Campus, Renningen, Germany, in the department of Mapping, Localization and Navigation (CR/AAS3) held by <a hredf="https://sites.google.com/site/alexanderkleiner/">Dr. Alexander Kleiner</a> and in collaboration with  <a href="http://www2.informatik.uni-freiburg.de/~arras/">Dr. Kai Oliver Arras</a>.
-    <br/><br/>
-    I am a member of the <a href="http://labrococo.dis.uniroma1.it/?q=node/6">Lab Ro.Co.Co.</a> under the supervision of <a href="https://sites.google.com/dis.uniroma1.it/grisetti">Prof. Giorgio Grisetti</a>.
-    <br/><br/>
-    My main topic is life-long resource-aware SLAM. I'm currently working on the behavioral aspect of SLAM developing a behavioral controller ruled by a state machine and the unification of SLAM pipelines.
-    The code base I am working on is the <a href="https://github.com/srrg-sapienza">srrg_software</a>.
+<p><a href="https://arxiv.org/abs/2003.00754v2">Link to the article</a><br />
+BibTex:<br />
+<pre>
+@article{colosi2020plug,
+  title={{Plug-and-Play SLAM: A Unified SLAM Architecture for Modularity and Ease of Use}},
+  author={Colosi, Mirco and Aloise, Irvin and Guadagnino, Tiziano and Schlegel, Dominik and Della Corte, Bartolomeo and Arras, Kai O and Grisetti, Giorgio},
+  journal={arXiv preprint arXiv:2003.00754},
+  year={2020}
+}
+</pre></p>
 
-  </p>
-</div>
 
-          </div>
         
 
-        <div class="posts-list">
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://mircolosi.github.io/publications/2019-11-04-slam-state-machine/" data-toggle="tooltip" data-placement="top" title="Better Lost in Transition Than Lost in Space: SLAM State Machine">&larr; Previous Post</a>
+            </li>
           
           
-        </div>
+        </ul>
+      
 
-        
-      </div>
+
+      
+
     </div>
   </div>
+</div>
 
     <footer>
   <div class="container">
