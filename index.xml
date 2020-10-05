@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>colosi@diag.uniroma1.it,mirco.colosi@de.bosch.com (Mirco Colosi)</managingEditor>
     <webMaster>colosi@diag.uniroma1.it,mirco.colosi@de.bosch.com (Mirco Colosi)</webMaster>
-    <lastBuildDate>Tue, 14 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mircolosi.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Least Squares Optimization: From Theory to Practice</title>
+      <link>https://mircolosi.github.io/publications/2020-07-01-solver/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <author>colosi@diag.uniroma1.it,mirco.colosi@de.bosch.com (Mirco Colosi)</author>
+      <guid>https://mircolosi.github.io/publications/2020-07-01-solver/</guid>
+      <description>Nowadays, Nonlinear Least-Squares embodies the foundation of many Robotics and Computer Vision systems. The research community deeply investigated this topic in the last few years, and this resulted in the development of several open-source solvers to approach constantly increasing classes of problems. In this work, we propose a unified methodology to design and develop efficient Least-Squares Optimization algorithms, focusing on the structures and patterns of each specific domain. Furthermore, we present a novel open-source optimization system that addresses problems transparently with a different structure and designed to be easy to extend.</description>
+    </item>
     
     <item>
       <title>Plug-and-Play SLAM: A Unified SLAM Architecture for Modularity and Ease of Use</title>
