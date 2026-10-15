@@ -1,0 +1,162 @@
+[
+  {
+    "id": "open3dsg",
+    "category": "radiance",
+    "banner": "CVPR 2024",
+    "date": "2024 &bull; Seattle WA, USA",
+    "title": "Open3DSG: Open-vocabulary 3D Scene Graphs from Point Clouds with Queryable Objects and Open-set Relationships",
+    "excerpt": "Sebastian Koch, Narunas Vaskevicius, Mirco Colosi, Pedro Hermosilla, Timo Ropinski. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024.",
+    "links": {
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k4m1c6EAAAAJ&citation_for_view=k4m1c6EAAAAJ:eQOLeE2rZwMC"
+    },
+    "paperId": "DOI:10.1109/CVPR52733.2024.01345",
+    "citations": 133
+  },
+  {
+    "id": "proslam",
+    "category": "slam",
+    "banner": "ICRA 2018",
+    "date": "2018 &bull; Brisbane, Australia",
+    "title": "ProSLAM: Graph SLAM from a Programmer's Perspective",
+    "excerpt": "Dominik Schlegel, Mirco Colosi, Giorgio Grisetti. IEEE International Conference on Robotics and Automation (ICRA), pp. 3833-3840, 2018.",
+    "links": {
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k4m1c6EAAAAJ&citation_for_view=k4m1c6EAAAAJ:u5HHmVD_uO8C",
+      "details": "publications/2017-09-13-proslam/"
+    },
+    "paperId": "DOI:10.1109/ICRA.2018.8461180",
+    "citations": 53
+  },
+  {
+    "id": "lsq",
+    "category": "optimization",
+    "banner": "Robotics Journal 2020",
+    "date": "2020",
+    "title": "Least Squares Optimization: From Theory to Practice",
+    "excerpt": "Giorgio Grisetti, Tiziano Guadagnino, Irvin Aloise, Mirco Colosi, Bartolomeo Della Corte, Dominik Schlegel. Robotics 9 (3), 51, 2020.",
+    "links": {
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k4m1c6EAAAAJ&citation_for_view=k4m1c6EAAAAJ:2osOgNQ5qMEC",
+      "details": "publications/2020-07-01-solver/"
+    },
+    "paperId": "DOI:10.3390/robotics9030051",
+    "citations": 48
+  },
+  {
+    "id": "sgrec3d",
+    "category": "radiance",
+    "banner": "WACV 2024",
+    "date": "2024 &bull; Waikoloa HI, USA",
+    "title": "SGRec3D: Self-Supervised 3D Scene Graph Learning via Object-Level Scene Reconstruction",
+    "excerpt": "Sebastian Koch, Pedro Hermosilla, Narunas Vaskevicius, Mirco Colosi, Timo Ropinski. IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2024.",
+    "links": {
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k4m1c6EAAAAJ&citation_for_view=k4m1c6EAAAAJ:Y0pCki6q_DkC"
+    },
+    "paperId": "DOI:10.1109/WACV57701.2024.00337",
+    "citations": 36
+  },
+  {
+    "id": "bridging",
+    "category": "radiance",
+    "banner": "ICVS 2017",
+    "date": "2017",
+    "title": "Bridging Between Computer and Robot Vision Through Data Augmentation: A Case Study on Object Recognition",
+    "excerpt": "Antonio D’Innocente, Francesca M. Carlucci, Mirco Colosi, Barbara Caputo. International Conference on Computer Vision Systems (ICVS), pp. 384-393, 2017.",
+    "links": {
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k4m1c6EAAAAJ&citation_for_view=k4m1c6EAAAAJ:u-x6o8ySG0sC",
+      "details": "publications/2017-05-05-object-recognition/"
+    },
+    "paperId": "DOI:10.1007/978-3-319-68345-4_34",
+    "citations": 22
+  },
+  {
+    "id": "lang3dsg",
+    "category": "radiance",
+    "banner": "3DV 2024",
+    "date": "2024 &bull; Davos, Switzerland",
+    "title": "Lang3DSG: Language-Based Contrastive Pre-Training for 3D Scene Graph Prediction",
+    "excerpt": "Sebastian Koch, Pedro Hermosilla, Narunas Vaskevicius, Mirco Colosi, Timo Ropinski. International Conference on 3D Vision (3DV), pp. 1037-1047, 2024.",
+    "links": {
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k4m1c6EAAAAJ&citation_for_view=k4m1c6EAAAAJ:W7OEmFMy1HYC"
+    },
+    "paperId": "DOI:10.1109/3DV62453.2024.00076",
+    "citations": 28
+  },
+  {
+    "id": "plugnplay",
+    "category": "slam",
+    "banner": "IROS 2020",
+    "date": "2020 &bull; Las Vegas NV, USA",
+    "title": "Plug-and-Play SLAM: A Unified SLAM Architecture for Modularity and Ease of Use",
+    "excerpt": "Mirco Colosi, Irvin Aloise, Tiziano Guadagnino, Dominik Schlegel, Bartolomeo Della Corte, Kai O. Arras, Giorgio Grisetti. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2020.",
+    "links": {
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k4m1c6EAAAAJ&citation_for_view=k4m1c6EAAAAJ:IjCSPb-OGe4C",
+      "details": "publications/2020-04-14-plug-n-play-slam/"
+    },
+    "paperId": "DOI:10.1109/IROS45743.2020.9341611",
+    "citations": 15
+  },
+  {
+    "id": "relationfield",
+    "category": "radiance",
+    "banner": "CVPR 2025",
+    "date": "2025 &bull; Nashville TN, USA",
+    "title": "RelationField: Relate Anything in Radiance Fields",
+    "excerpt": "Sebastian Koch, Johanna Wald, Mirco Colosi, Narunas Vaskevicius, Pedro Hermosilla, Federico Tombari, Timo Ropinski. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025.",
+    "links": {
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k4m1c6EAAAAJ&citation_for_view=k4m1c6EAAAAJ:ufrVoPGSRksC"
+    },
+    "paperId": "DOI:10.1109/CVPR52734.2025.02022",
+    "citations": 18
+  },
+  {
+    "id": "scintigraphic",
+    "category": "radiance",
+    "banner": "Radiology & Oncology 2019",
+    "date": "2019",
+    "title": "Scintigraphic Load of Bone Disease Evaluated by DASciS Software as a Survival Predictor in mCRPC Patients",
+    "excerpt": "Viviana Frantellizzi, Alessia Pani, Maria D. Ippoliti, Alessio Farcomeni, Irvin Aloise, Mirco Colosi, Corinna Polito, et al. Radiology and Oncology 54 (1), pp. 40-47, 2019.",
+    "links": {
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k4m1c6EAAAAJ&citation_for_view=k4m1c6EAAAAJ:d1gkVwhDpl0C"
+    },
+    "paperId": "DOI:10.2478/raon-2019-0058",
+    "citations": 15
+  },
+  {
+    "id": "slamstate",
+    "category": "slam",
+    "banner": "IROS 2019",
+    "date": "2019 &bull; Macau, China",
+    "title": "Better Lost in Transition Than Lost in Space: SLAM State Machine",
+    "excerpt": "Mirco Colosi, Sebastian Haug, Peter Biber, Kai O. Arras, Giorgio Grisetti. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2019.",
+    "links": {
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k4m1c6EAAAAJ&citation_for_view=k4m1c6EAAAAJ:9yKSN-GCB0IC",
+      "details": "publications/2019-11-04-slam-state-machine/",
+      "pdf": "resources/2019_paper_colosi_slam_state_machine.pdf"
+    },
+    "paperId": "DOI:10.1109/IROS40897.2019.8968182",
+    "citations": 4
+  },
+  {
+    "id": "patent",
+    "category": "patent",
+    "banner": "US Patent",
+    "date": "2025 &bull; US Patent App. 19/036,393",
+    "title": "Device and Method for Generating a Graph Representation from a 3-Dimensional Point Cloud",
+    "excerpt": "Sebastian Koch, Mirco Colosi, Narunas Vaskevicius. United States Patent Application 19/036,393 (Robert Bosch GmbH). Method and apparatus for extracting semantic and relational graph structures from 3D point cloud data.",
+    "links": {
+      "patentRecord": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k4m1c6EAAAAJ&citation_for_view=k4m1c6EAAAAJ:_FxGoFyzp5QC"
+    },
+    "paperId": null
+  },
+  {
+    "id": "dissertation",
+    "category": "slam",
+    "banner": "Ph.D. Dissertation",
+    "date": "2021 &bull; Sapienza University of Rome",
+    "title": "Standardizing SLAM: Exploiting Recurrent Patterns for Modularity and Behavioral Robustness",
+    "excerpt": "Mirco Colosi. Doctoral dissertation in Engineering in Computer Science, Sapienza University of Rome, in collaboration with Robert Bosch GmbH.",
+    "links": {
+      "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k4m1c6EAAAAJ&citation_for_view=k4m1c6EAAAAJ:Tyk-4Ss8FVUC"
+    },
+    "paperId": null
+  }
+]

@@ -1,0 +1,32 @@
+name: Update Publication Citations
+
+on:
+  schedule:
+    - cron: '0 0 * * 1' # Runs every Monday at 00:00 UTC
+  workflow_dispatch:     # Allows manual trigger from GitHub UI
+
+jobs:
+  update-citations:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write    # Required to commit changes back to the repo
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Run update script
+        run: python .github/scripts/update_citations.py
+
+      - name: Commit and push changes if updated
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add resources/publications.json
+          git diff --staging --quiet || git commit -m "chore: auto-update citation counts [skip ci]"
+          git push
