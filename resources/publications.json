@@ -143,11 +143,22 @@
     "title": "Device and Method for Generating a Graph Representation from a 3-Dimensional Point Cloud",
     "excerpt": "Sebastian Koch, Mirco Colosi, Narunas Vaskevicius. United States Patent Application 19/036,393 (Robert Bosch GmbH). Method and apparatus for extracting semantic and relational graph structures from 3D point cloud data.",
     "links": {
-      "patentRecord": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k4m1c6EAAAAJ&citation_for_view=k4m1c6EAAAAJ:_FxGoFyzp5QC"
+      "patentRecord": "https://scholar.google.com/citations?view_op=view_citation&hl=it&user=vJMu-tYAAAAJ&citation_for_view=vJMu-tYAAAAJ:IjCSPb-OGe4C"
     },
     "paperId": null
   },
   {
+    "id": "patent",
+    "category": "patent",
+    "banner": "US Patent",
+    "date": "2024 &bull; US Patent US-20240065510-A1",
+    "title": "METHOD FOR OPERATING A MOBILE, SELF-MOVING DEVICE AND MOBILE, SELF-MOVING DEVICE",
+    "excerpt": "Frank Schnitzer, Kristina Daniel, Mirco Colosi. United States Patent Application 18/456,762 (Robert Bosch GmbH). Method and apparatus for extracting semantic and relational graph structures from 3D point cloud data.",
+    "links": {
+      "patentRecord": "https://scholar.google.com/citations?view_op=view_citation&hl=it&user=vJMu-tYAAAAJ&citation_for_view=vJMu-tYAAAAJ:ufrVoPGSRksC"
+    },
+    "paperId": null
+  },  {
     "id": "dissertation",
     "category": "slam",
     "banner": "Ph.D. Dissertation",
