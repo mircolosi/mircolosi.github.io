@@ -134,9 +134,18 @@ document.addEventListener('DOMContentLoaded', () => {
       const email = document.getElementById('senderEmail').value;
       const subject = document.getElementById('msgSubject').value;
       const message = document.getElementById('msgBody').value;
-
-      const mailtoUrl = `mailto:colosi@diag.uniroma1.it?subject=${encodeURIComponent(subject + ' [From ' + name + ']')}&body=${encodeURIComponent(message + '\n\nSender Email: ' + email)}`;
+      const my_email = atob('bWlyY28uY29sb3Np') + '@' + atob('Z21haWwuY29t');
+      const mailtoUrl = `mailto:${my_email}?subject=${encodeURIComponent(subject + ' [From ' + name + ']')}&body=${encodeURIComponent(message + '\n\nSender Email: ' + email)}`;
       window.location.href = mailtoUrl;
     });
   }
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.obf-email').forEach(el => {
+    const addr = atob(el.dataset.u) + '@' + atob(el.dataset.d);
+    el.href = 'mailto:' + addr;
+    // only fill in the visible text for text links, not icon links
+    if (!el.classList.contains('obf-icon')) el.textContent = addr;
+  });
 });
